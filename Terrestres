@@ -1,0 +1,24 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package examen;
+
+/**
+ *
+ * @author user
+ */
+public class Terrestres extends Vehiculo{
+
+    public Terrestres() {
+        
+    }
+    String frenos="Frenos", asientos="Sillas comodas";
+    
+    public void carretera (){
+        System.out.println("Vehiculo terrestre que se desplaza por carretera");
+    }
+    
+    
+    
+}
