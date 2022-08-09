@@ -1,0 +1,28 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package examen;
+
+/**
+ *
+ * @author user
+ */
+public class Vehiculo {
+
+    public Vehiculo() {
+    }
+    String grande="grande", comodo="comodo", accesible="accesible";
+    
+    public void transportar () {
+        System.out.println("transporta personas, objetos, animales");
+    }
+    
+    public void rapido () {
+        System.out.println("Es un metodo de desplazamiento rapido");
+    }
+    public void gasolina () {
+        System.out.println("Necesitan combustible para funcionar");
+    }
+    
+}
