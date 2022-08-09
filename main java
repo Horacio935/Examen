@@ -1,0 +1,48 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package examen;
+
+/**
+ *
+ * @author user
+ */
+public class main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Automovil carro=new Automovil();
+        carro.carretera();
+        carro.gasolina();
+        carro.transportar();
+        
+        Motos moto=new Motos();
+        moto.carretera();
+        moto.gasolina();
+        moto.rapido();
+        moto.transportar();
+        
+        Avion dodo=new Avion();
+        dodo.cielo();
+        dodo.gasolina();
+        dodo.maniobrableX();
+        dodo.transportar();
+        dodo.piloto();
+        dodo.turbinas();
+        dodo.rapido();
+        
+        Helicoptero frog=new Helicoptero();
+        frog.cielo();
+        frog.gasolina();
+        frog.maniobrableF();
+        frog.helices();
+        frog.transportar();
+        frog.rapido();
+        frog.piloto();
+    }
+    
+}
