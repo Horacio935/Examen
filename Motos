@@ -1,0 +1,16 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package examen;
+
+/**
+ *
+ * @author user
+ */
+public class Motos extends Terrestres {
+    public Motos() {
+    }
+    String pequeños="pequeños", puertas2="tienen puertas", llantas2="tienen 2 llantas";
+    
+}
