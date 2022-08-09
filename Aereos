@@ -1,0 +1,30 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package examen;
+
+/**
+ *
+ * @author user
+ */
+public class Aereos extends Vehiculo{
+
+    public Aereos() {
+    }
+    String big="muy grandes", fast="muy rapidos";
+    public void cielo (){
+        System.out.println("Vehiculo aereo que se desplaza por el aire");
+    }
+    
+    public void turbinas (){
+        System.out.println("Necesita turbinas para desplegar");
+    }
+    public void helices (){
+        System.out.println("Necesita helices para desplegar");
+    }
+    public void piloto (){
+        System.out.println("Necesita un piloto para funcionar");
+    }
+    
+}
