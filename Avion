@@ -1,0 +1,20 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package examen;
+
+/**
+ *
+ * @author user
+ */
+public class Avion extends Aereos{
+
+    public Avion() {
+    }
+    String pasajeros="permite muchos pasajeros", piloto2=" necesita un piloto y un copiloto", pista="pista de aterrizaje";
+    public void maniobrableX (){
+        System.out.println("Es dificl de maniobrar");
+    }
+    
+}
